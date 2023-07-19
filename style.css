@@ -285,7 +285,7 @@
 
 .card-container{
     display: flex;
-    al
+    margin-bottom: 5px;
 }
 .card-title{
     color: #0B0223;
@@ -335,6 +335,7 @@
     font-weight: 500; 
     text-align: left;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 
@@ -574,7 +575,7 @@
   
   .line2 {
     justify-content: center;
-    margin-top: 20px; /* Add margin to create space between the lines */
+    margin-top: -160px;
   }
   
   .game {
@@ -637,7 +638,6 @@
 .footer-container{
     height: 500px;
     background: #0B0223;
-    margin-top: 80px;
 }
 
 .footer-title-container{
@@ -734,4 +734,14 @@
 }
 
 /* Footer Section End */
+
+
+
+/* Responsive Design Start */
+
+
+
+
+
+/* Responsive Design End */
 
