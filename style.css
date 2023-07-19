@@ -1,0 +1,737 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Header Start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:95px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-left , .nav-right {
+    margin: 0px 100px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width:65px;
+    margin-right: 8px;
+}
+
+.nav-h3{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-span{
+    color: #FF42A5; 
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none
+}
+.menu a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.nav-p{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.svg-icon-youtube{
+    width: 30px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.svg-icon-tiktok {
+    width: 30px;
+    height: 24px;
+
+}
+/* Header End */
+
+
+/* Banner 1 Start */
+
+.banner1-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+}
+
+.text-area-play{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-area-goat{
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.three-p{
+    display: flex;
+}
+
+.threeimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.threep{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.three-p1, .three-p2, .three-p3 {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.three-img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.btn1, .btn2 {
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFF;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.btn1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn2{
+    border-radius: 48px;
+    background: #4EC5F7;
+
+}
+
+.banner1img{
+    height: 500px;
+}
+
+/* Banner 1 End */
+
+
+/* Banner 2 Start */
+
+.banner2-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.banner2-text-area{
+    text-align: right;
+
+}
+
+.banner2-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner2-paragraph{
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 20px 0px;
+}
+
+.banner2-btn{
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background:  #FF42A5;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.banner2-paragraph2{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+
+.banner2-span{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.banner2-img{
+    width: 868px;
+    height: 489px;
+    flex-shrink: 0;
+}
+
+/* Banner 2 End */
+
+
+/* Card Section Start  */
+
+.card-container{
+    display: flex;
+    al
+}
+.card-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 80px;
+}
+
+.card-title-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-paragraph{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 20px 0px;
+}
+
+.card-images{
+    margin: 0 auto;
+}
+
+.card-images-title{
+    display: flex;
+    justify-content: space-evenly;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500; 
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+/* Card Hover  */
+
+
+/* Card Section End  */
+
+.play-section{
+    height: 1400px;
+}
+
+
+
+/* Play Instantly Section */
+
+
+.play-inst-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 700px;
+  }
+  
+  .play-inst-left-h1 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+  }
+  
+  .play-inst-left-paragraph {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  
+  .play-inst-left-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .play-inst-right {
+    position: relative;
+  }
+  
+  .play-inst-right img:nth-child(2) {
+    position: absolute;
+    bottom: -50px; 
+    left: -50px; 
+    z-index: 1;
+  }
+
+  .playimg1{
+    width: 550px;
+  }
+
+/* Play Instantly End */
+
+
+
+/* Play Game Anywhere Start */
+
+.play-games-anywhere-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  
+  .play-games-anywhere-left {
+    position: relative;
+  }
+  
+  .play-games-anywhere-left img:nth-child(2) {
+    position: absolute;
+    bottom: -50px; /* Adjust the amount of overlap as needed */
+    right: -50px; /* Adjust the amount of overlap as needed */
+    z-index: 1; /* Ensure the second image is positioned above the first image */
+  }
+  
+  .play-games-anywhere-left img {
+    margin-bottom: 20px;
+  }
+
+  .playimg3 {
+    width: 550px;
+  }
+
+  .play-games-anywhere-h1 {
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+.play-games-anywhere-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-anywhere-paragraph{
+    width: 483px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+  
+  
+/* Play Game Anywhere End */
+
+
+
+/* Career Section Start  */
+
+
+.career-container{
+    height: 800px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.career-h1{
+    width: 426px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-top: 120px;
+    margin-bottom: 30px;
+
+}
+
+.career-paragraph{
+    width: 680px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 30px;
+}
+
+.career-roles{
+    display: flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+
+.career-role-left{
+    text-align: left;
+}
+.career-role-right{
+    text-align: right;
+}
+
+.career-btn{
+    border: none;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    cursor: pointer;
+
+}
+
+.career-img{
+    width: 500px;
+}
+
+
+/* Career Section End  */
+
+
+
+
+
+/* Games Types Design Start */
+
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  }
+  
+  .line {
+    display: flex;
+  }
+  
+  .line1 {
+    justify-content: center;
+  }
+  
+  .line2 {
+    justify-content: center;
+    margin-top: 20px; /* Add margin to create space between the lines */
+  }
+  
+  .game {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border-radius: 50px;
+    padding: 10px;
+    transition: border-color 0.3s ease; /* Add transition property targeting border-color only */
+  }
+  
+  .game .gamesimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .game .gamesp {
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .game:hover .gamesimg {
+    transform: scale(1.1);
+  }
+  
+  .game:hover .gamesp {
+    color: #F948B2;
+  }
+  
+  .game:hover {
+    border: 2px solid #F948B2;
+    transform: none; /* Reset transform on hover to prevent movement */
+  }
+  
+  @media (max-width: 768px) {
+    .games-container {
+      height: auto;
+    }
+  
+    .game {
+      width: 50%;
+    }
+  }
+
+  /* Games Types Design Start */
+  
+  
+
+/* Footer Section Start */
+
+.footer-container{
+    height: 500px;
+    background: #0B0223;
+    margin-top: 80px;
+}
+
+.footer-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.footer-h1{
+    color: #fff;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 8px;
+}
+
+.footer-span{
+    color: #FF42A5;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+  
+.footer-nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+
+.footer-social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0px;
+    gap: 40px;
+}
+
+.footerimg{
+    width: 40px;
+    height: 40px;
+}
+
+
+.footer-terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer-terms-ul{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-terms-ul a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 35px;
+}
+
+/* Footer Section End */
+
